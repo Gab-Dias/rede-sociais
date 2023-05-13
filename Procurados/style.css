@@ -21,15 +21,18 @@ h1 {
     color: white;
 }
 
-img {
+div > img {
     display: block;
-    width: 400px;
+    width: 70vw;
     margin: auto;
 }
+
+
 
 div { 
     background-image: url(parede.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 h2, p {

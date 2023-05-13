@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+h1 {
+    background-color: rgb(174, 6, 6);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 3em;
+    color: white;
+}
+
+div > img {
+    display: block;
+    width: 55vw;
+    margin: auto;
+}
+
+div { 
+    background-image: url(grade.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+h2, p {
+    background-color: rgb(174, 6, 6);
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+p {
+    font-size: 1.2em;
+    padding-top: 15px;
+    
+}
+
+h2 {
+    padding-top: 20px;
+    font-size: 2em;
+}
+
+p#p1 {
+    padding-bottom: 30px;
+}

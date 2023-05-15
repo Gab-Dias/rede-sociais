@@ -1,16 +1,16 @@
 @charset "UTF-8";
 
-
- 
-  
-  @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 * {
     margin: 0px;
     padding: 0px;
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
+
 
 h1 {
     background-color: rgb(174, 6, 6);
@@ -23,15 +23,13 @@ h1 {
 
 div > img {
     display: block;
-    width: 70vw;
+    width: 55vw;
     margin: auto;
 }
 
-
-
 div { 
-    background-image: url(parede.jpg);
-    background-size: cover;
+    background-image: url(grade.jpg);
+    background-size: contain;
     background-attachment: fixed;
 }
 
